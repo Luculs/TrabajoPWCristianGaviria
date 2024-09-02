@@ -1,0 +1,68 @@
+.contenedor{
+    background-color: rgb(250, 250, 250);
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    border-radius: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+
+#cajaA{
+    display: flex;
+    width: 100%;
+    text-align:center;
+    height: 31%;
+    background-color: rgb(150,150,150);
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.contenedor2{
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+}
+
+#cajaB{
+    display: flex;
+    width: 100%;
+    height: 48%;
+    background-color: rgb(150,150,150);
+    justify-content: center;
+    align-items: center;
+    margin:1%;
+    border-radius: 5px;
+}
+
+#cajasCDE{
+    display: flex;
+    height: 48%;
+    background-color: rgb(150,150,150);
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+#cajaF{
+    display: flex;
+    background-color: rgb(150,150,150);
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 66%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
